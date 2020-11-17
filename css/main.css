@@ -9,11 +9,11 @@ a {
   text-decoration: none;
 }
 .container {
-  max-width: 1110px;
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header,
 .white-color {
@@ -200,6 +200,7 @@ a {
   margin-bottom: 49px;
 }
 .new-projects__title a {
+  display: inline-block;
   color: #000;
   text-decoration: underline;
   -webkit-transition: color 0.2s ease-in;
@@ -208,11 +209,35 @@ a {
 .new-projects__title a:hover {
   color: #FF343D;
 }
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .card {
   max-width: 540px;
   -webkit-box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
           box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
   background-color: #fff;
+  margin-bottom: 40px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.card:hover {
+  opacity: 0.7;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.card:last-child {
+  margin-bottom: 0;
+}
+.card:nth-last-child(2) {
+  margin-bottom: 0;
 }
 .card__content {
   padding: 20px 20px 32px;
@@ -232,6 +257,7 @@ a {
   background-color: #000;
 }
 .card__img {
+  display: block;
   margin-bottom: 20px;
   max-width: 100%;
 }

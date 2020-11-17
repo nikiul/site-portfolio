@@ -1,15 +1,38 @@
-.card__link {
-    
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
     max-width: 540px;
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
     background-color: #fff;
+    margin-bottom: 40px;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.7;
+        transform: translateY(-5px);
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+}
+
+.card__link {
+    
 }
 
 .card__content {
     padding: 20px 20px 32px;
+    
+
 }
 
 .card__tech-stack {
@@ -28,6 +51,7 @@
 }
 
 .card__img {
+    display: block;
     margin-bottom: 20px;
     max-width: 100%;
 }
