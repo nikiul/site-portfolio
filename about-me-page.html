@@ -11,8 +11,8 @@
 <body>
     
     <main class="main">
-
-        <header class="header">
+        <header class="header header-color--gray">
+            <div class="container">
             <div class="header__content">
                 <h1 class="header__title">
                     <a class="header__title-link" href="index.html">Digital Nomad</a>
@@ -22,7 +22,7 @@
 
                 <ul class="header__nav"> 
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="about-me-page.html">Обо мне</a>
+                        <a class="header__nav-link header-nav-color--red" href="about-me-page.html">Обо мне</a>
                     </li>
                     <li class="header__nav-item">
                         <a class="header__nav-link" href="#">Портфолио</a>
@@ -32,12 +32,15 @@
                     </li>       
                 </ul>
             </div>
+            </div>
         </header>
 
-        <section class="about-me">
+        <section class="about-me about-me-color--white">
             <div class="container">
+                <h2 class="about-me__title">Обо мне</h2>
                 <div class="about-me__content">
-                    <img src="./img/aboutMe1.jpg" alt="Обо мне" class="about-me__img">
+
+                    <img src="./img/aboutMe1.jpg" alt="Обо мне" class="about-me__img about-me__img-circle">
 
                     <div class="about-me__desc">
                         <h3 class="about-me__desc-title">обо мне</h3>
@@ -56,6 +59,45 @@
             </div>
         </section>
 
+        <section class="skills">
+
+            <div class="container">
+
+                <h2 class="skills__title">
+                    Навыки
+                </h2>
+
+                <ul class="skills__list">
+                    <li class="skills__list-item">
+                        <img src="./img/icons/html-5.svg" alt="HTML5" class="skills__list-icon">
+                        <p>HTML5</p>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./img/icons/css-3.svg" alt="CSS3" class="skills__list-icon">
+                        <p>CSS3</p>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./img/icons/less.svg" alt="Less" class="skills__list-icon">
+                        <p>Less</p>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./img/icons/github-skill.svg" alt="JS" class="skills__list-icon">
+                        <p>GitHub</p>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./img/icons/javascript.svg" alt="JS" class="skills__list-icon">
+                        <p>JS</p>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./img/icons/php.svg" alt="PHP" class="skills__list-icon">
+                        <p>PHP</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
         <section class="order-status">
             <div class="container">
                 <a href="#" class="order-status__link">
@@ -67,69 +109,6 @@
                 </a>
             </div>
         </section>
-
-        <section class="new-projects">
-            <div class="container">
-                <h2 class="new-projects__title">Новые проекты в <a href="#">портфолио</a></h2>
-
-                <div class="card-wrapper">
-                    
-                    <div class="card">
-                        <a href="#" class="card__link">
-                            <div class="card__content">
-                                <div class="card__tech-stack">HTML, SCSS, GULP, PUG, JS</div>
-
-                                <img src="./img/portfolio1.jpg" alt="Портфолио" class="card__img">
-
-                                <p class="card__desc">Учебный проект.Верстка и front-end блога</p>
-                                
-                            </div>
-                        </a>    
-                    </div>
-
-                    <div class="card">
-                        <a href="#" class="card__link">
-                            <div class="card__content">
-                                <div class="card__tech-stack">HTML, CSS, JS</div>
-
-                                <img src="./img/portfolio2.jpg" alt="Портфолио" class="card__img">
-
-                                <p class="card__desc">Учебный проект.Страница риэлторского агенства с выбором ЖК </p>
-                                
-                            </div>
-                        </a>    
-                    </div>
-
-                    <div class="card">
-                        <a href="#" class="card__link">
-                            <div class="card__content">
-                                <div class="card__tech-stack">HTML, LESS, JS</div>
-
-                                <img src="./img/portfolio3.jpg" alt="" class="card__img">
-
-                                <p class="card__desc">Учебный проект "Юнит"</p>
-                                
-                            </div>
-                        </a>    
-                    </div>
-
-                    <div class="card">
-                        <a href="#" class="card__link">
-                            <div class="card__content">
-                                <div class="card__tech-stack">HTML, CSS</div>
-
-                                <img src="./img/portfolio4.jpg" alt="" class="card__img">
-
-                                <p class="card__desc">Учебный проект.Верстка сайт пушествий "Forest Travel"</p>
-                                
-                            </div>
-                        </a>    
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
     </main>
 
     <footer class="footer">
