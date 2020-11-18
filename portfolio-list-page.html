@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Pizdatoe portfolio</title>
 </head>
-<body>
+<html>
     
-    <main class="main">
+    <body class="main">
         <!-- Шапка -->
-        <header class="header">
+        <header class="header header-color--gray">
+            <div class="container">
             <div class="header__content">
                 <h1 class="header__title">
                     <a class="header__title-link" href="index.html">Digital Nomad</a>
                 </h1>
 
                 <p class="header__desc">веб-разработчик</p>
-
                 <!-- Навигация -->
                 <ul class="header__nav"> 
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="portfolio-list-page.html">Портфолио</a>
+                        <a class="header__nav-link header-nav-color--red" href="portfolio-list-page.html">Портфолио</a>
                     </li>
                     <li class="header__nav-item">
                         <a class="header__nav-link" href="#">Контакты</a>
@@ -32,95 +32,14 @@
                 <!-- // Навигация -->
 
             </div>
+            </div>
         </header>
         <!-- // Шапка -->
 
-        <!-- Раздел "Обо мне" -->
-        <section class="about-me">
+        <!-- Секция портфолио -->
+        <section class="portfolio">
             <div class="container">
-                <div class="about-me__content">
-                    <img src="./img/aboutMe1.jpg" alt="Обо мне" class="about-me__img">
-
-                    <!-- Описание "Обо мне" в шапке -->
-                    <div class="about-me__desc">
-                        <h3 class="about-me__desc-title">обо мне</h3>
-
-                        <p class="about-me__desc-text">Меня зовут Никита.Я учусь вёрстке и front-end разработке.Могу качественно и вовремя выполнить Ваш заказ по Вашему макету за невысокую цену.В моём портфолио уже имеются коммерческие работы.Обращайтесь.
-                        </p>
-
-                        <h3 class="about-me__desc-title">чем могу быть полезен</h3>
-
-                        <ul class="about-me__desc-list">
-                            <li class="about-me__desc-list-item">Верстка сайтов</li>
-                            <li class="about-me__desc-list-item">Front-end</li>
-                        </ul>
-                    </div>
-                    <!-- // Описание "Обо мне" в шапке -->
-
-                </div>
-            </div>
-        </section>
-        <!-- // Раздел "Обо мне" -->
-
-        <!-- Секция навыки -->
-        <section class="skills">
-
-            <div class="container">
-
-                <h2 class="skills__title">
-                    Навыки
-                </h2>
-
-                <ul class="skills__list">
-                    <li class="skills__list-item">
-                        <img src="./img/icons/html-5.svg" alt="HTML5" class="skills__list-icon">
-                        <p>HTML5</p>
-                    </li>
-                    <li class="skills__list-item">
-                        <img src="./img/icons/css-3.svg" alt="CSS3" class="skills__list-icon">
-                        <p>CSS3</p>
-                    </li>
-                    <li class="skills__list-item">
-                        <img src="./img/icons/less.svg" alt="Less" class="skills__list-icon">
-                        <p>Less</p>
-                    </li>
-                    <li class="skills__list-item">
-                        <img src="./img/icons/github-skill.svg" alt="JS" class="skills__list-icon">
-                        <p>GitHub</p>
-                    </li>
-                    <li class="skills__list-item">
-                        <img src="./img/icons/javascript.svg" alt="JS" class="skills__list-icon">
-                        <p>JS</p>
-                    </li>
-                    <li class="skills__list-item">
-                        <img src="./img/icons/php.svg" alt="PHP" class="skills__list-icon">
-                        <p>PHP</p>
-                    </li>
-                </ul>
-
-            </div>
-
-        </section>
-        <!-- // Секция навыки -->
-
-        <!-- Статус заказа -->
-        <section class="order-status">
-            <div class="container">
-                <a href="#" class="order-status__link">
-                    <div class="order-status__content">
-                        <p class="order-status__content-title">Свободен для новых проектов</p>
-                        <p class="order-status__content-subtitle">Рассматриваю предложения по верстке и front-end разработке. Подробности</p>
-                        <img src="./img/icons/arrow-right.svg" alt="Подробности">
-                    </div>
-                </a>
-            </div>
-        </section>
-        <!-- // Статус заказа -->
-
-        <!-- Раздел "Новые проекты" -->
-        <section class="new-projects">
-            <div class="container">
-                <h2 class="new-projects__title">Новые проекты в <a href="portfolio-list-page.html">портфолио</a></h2>
+                <div class="portfolio-page__title">Портфолио</div>
 
                 <div class="card-wrapper">
                     <!-- Карточка -->
@@ -176,19 +95,18 @@
 
                                 <img src="./img/portfolio4.jpg" alt="" class="card__img">
 
-                                <p class="card__desc">Учебный проект.Верстка сайта пушествий "Forest Travel"</p>
+                                <p class="card__desc">Учебный проект.Верстка сайт пушествий "Forest Travel"</p>
                                 
                             </div>
                         </a>    
                     </div>
-                    <!-- // Карточка -->
-                    
+                    <!-- // Карточка -->        
                 </div>
             </div>
         </section>
-        <!-- // Раздел "Новые проекты" -->
-    </main>
-
+        <!-- // Секция портфолио -->
+    </body>
+    
     <!-- Футер -->
     <footer class="footer">
         <div class="container">
@@ -218,5 +136,4 @@
     </footer>
     <!-- // Футер -->
 
-</body>
 </html>
