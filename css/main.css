@@ -126,11 +126,6 @@ a {
           box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
   border-radius: 50%;
 }
-.about-me__img-circle {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-}
 .about-me__desc {
   max-width: 540px;
 }
