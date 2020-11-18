@@ -84,7 +84,7 @@ a {
   transition: color 0.2s ease-in;
 }
 .header__nav-link:hover {
-  color: #FF343D;
+  color: rgba(0, 0, 0, 0.479);
 }
 .header-nav-color--red {
   color: red;
