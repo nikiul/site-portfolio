@@ -245,6 +245,7 @@ a {
 }
 .card {
   max-width: 540px;
+  height: auto;
   -webkit-box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
           box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
   background-color: #fff;
@@ -258,9 +259,6 @@ a {
           transform: translateY(-5px);
 }
 .card:last-child {
-  margin-bottom: 0;
-}
-.card:nth-last-child(2) {
   margin-bottom: 0;
 }
 .card__content {
