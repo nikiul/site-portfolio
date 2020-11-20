@@ -9,6 +9,7 @@
     <title>Pizdatoe portfolio</title>
 </head>
 <html>
+
     <body class="main">
         <!-- Шапка -->
         <header class="header header-color--gray">
@@ -25,10 +26,10 @@
                         <a class="header__nav-link" href="index.html">Главная</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link header-nav-color--red" href="portfolio-list-page.html">Портфолио</a>
+                        <a class="header__nav-link " href="portfolio-list-page.html">Портфолио</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="contacts-page.html">Контакты</a>
+                        <a class="header__nav-link header-nav-color--red" href="contacts-page.html">Контакты</a>
                     </li>       
                 </ul>
                 <!-- // Навигация -->
@@ -38,41 +39,45 @@
         </header>
         <!-- // Шапка -->
 
-        <section class="project__content">
+        <section class="section__contact-me">
+
             <div class="container">
-                <h2 class="project__title">
-                    Коммерческий проект. Блог "SΛRCΛSM"
-                </h2>
-                <img class="project__img" src="./img/sarcasm-blog.jpg" alt="SΛRCΛSM">
-                <div class="project__desc">
-                    <div class="project__desc-left-col">
 
-                        <h2 class="project__desc-title">Кратко о проекте</h2>
-                        <p class="project__desc-text">Первый коммерческий проект. Сайт написан по собственному макету. В разработке использовались HTML5, LESS, JavaScript и PHP. Добавлена админ-панель для управления контентом. Страницы со статьями генерируются после добавления администратором очередной статьи. Мобильная адаптация присутствует. 
+                <div class="contact-me__content">
+                    <div class="contact-me__left-col">
+                        <h2 class="contact-me__title">Контакты</h2>
+                        <p>Email: 
+                            <a href="mailto:nikulans@gmail.com">nikulans@gmail.com</a>
                         </p>
-                            
-                        <p class="project__desc-figures">Время работы над проектом: <span>9 днeй</span></p>
-                        <p class="project__desc-figures">Страниц сверстано: <span>2 страницы</span></p>
-                        <p class="project__desc-figures">Бюджет проекта: <span>10 000 рублей</span></p>
+                        <p>WhatsApp, Telegram: 
+                            <a href="tel:+7(988)535-27-53">+7 (988)535-27-53</a>
+                        </p>
+                        <p>ВКонтакте 
+                            <a href="https://vk.com/im?sel=156236848">Написать</a>
+                        </p>
                     </div>
-                    <div class="project__desc-right-col">
 
-                        <h2 class="project__desc-title">Технологии</h2>
-                            <ul class="project__desc-list">
-                                <li class="project-desc-list-item">HTML5, CSS3</li>
-                                <li class="project-desc-list-item">JavaScript, PHP</li>
-                            </ul>
+                    <div class="contact-me__right-col">
+                        <h2 class="contact-me__title">Напишите мне</h2>
+
+                        <form class="contact-me__form" action="">
+
+                            <input class="contact-me__form-name" type="text" placeholder="Ваше имя">
+                            <input class="contact-me__form-email" type="email" placeholder="Ваш Email">
+                            <textarea class="contact-me__form-message" name="" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
                             
+                            <input class="contact-me__form-file" type="file" name="photo" multiple accept="image/*,image/jpeg">
+                            <input class="contact-me__form-submit" type="submit" value="Отправить">
 
-                        <h2 class="project__desc-title">Ссылка на проект</h2>
-                        <a class="project__desc-link" href="#">Перейти</a>
 
+                        </form>
                     </div>
                 </div>
-            </div>
-        </section>
-            
 
+            </div>
+
+        </section>
+        
     </body>
     
     <!-- Футер -->

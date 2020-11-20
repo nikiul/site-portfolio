@@ -520,4 +520,108 @@ a {
 .project__desc-link:hover {
   color: #FF343D;
 }
+.section__contact-me {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.contact-me__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact-me__left-col {
+  margin-right: 50px;
+}
+.contact-me__left-col p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 170%;
+  color: #000000;
+}
+.contact-me__left-col p:last-child {
+  margin-bottom: 0;
+}
+.contact-me__left-col a {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #0059ff;
+}
+.contact-me__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000000;
+}
+.contact-me__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-me__form-name {
+  background: #FFFFFF;
+  border: 1px solid #7E9BBD;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+.contact-me__form-email {
+  background: #FFFFFF;
+  border: 1px solid #7E9BBD;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+.contact-me__form-message {
+  width: 540px;
+  height: 140px;
+  background: #FFFFFF;
+  border: 1px solid #7E9BBD;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  resize: none;
+}
+.contact-me__form-file {
+  margin-bottom: 15px;
+}
+.contact-me__form-submit {
+  width: 140px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+.contact-me__form-submit:hover {
+  background-color: #7E9BBD;
+}
+.contact-me__form-submit:active {
+  background-color: #49525B;
+}
 /*# sourceMappingURL=main.css.map */
