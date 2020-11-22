@@ -765,6 +765,12 @@ a {
   padding-top: 55px;
   padding-bottom: 55px;
 }
+@media (max-width: 800px) {
+  .section__contact-me {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
 .contact-me__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -773,8 +779,22 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 800px) {
+  .contact-me__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .contact-me__left-col {
   margin-right: 50px;
+}
+@media (max-width: 800px) {
+  .contact-me__left-col {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
 .contact-me__left-col p {
   margin: 0;
@@ -803,6 +823,12 @@ a {
   line-height: 130%;
   color: #000000;
 }
+@media (max-width: 800px) {
+  .contact-me__title {
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+}
 .contact-me__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -822,6 +848,21 @@ a {
   border-radius: 6px;
   height: 45px;
 }
+@media (max-width: 800px) {
+  .contact-me__form-name {
+    width: 540px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+}
+@media (max-width: 570px) {
+  .contact-me__form-name {
+    width: 100%;
+  }
+}
 .contact-me__form-email {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -831,6 +872,21 @@ a {
   border: 1px solid #7E9BBD;
   border-radius: 6px;
   height: 45px;
+}
+@media (max-width: 800px) {
+  .contact-me__form-email {
+    width: 540px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+}
+@media (max-width: 570px) {
+  .contact-me__form-email {
+    width: 100%;
+  }
 }
 .contact-me__form-message {
   padding-top: 14px;
@@ -842,6 +898,20 @@ a {
   border: 1px solid #7E9BBD;
   border-radius: 6px;
   resize: none;
+}
+@media (max-width: 800px) {
+  .contact-me__form-message {
+    width: 540px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 570px) {
+  .contact-me__form-message {
+    width: 100%;
+  }
 }
 .contact-me__form-file {
   margin-bottom: 15px;

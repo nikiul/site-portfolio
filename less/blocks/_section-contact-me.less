@@ -1,15 +1,32 @@
 .section__contact-me {
     padding-top: 55px;
     padding-bottom: 55px;
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 }
 
 .contact-me__content {
     display: flex;
     justify-content: center;
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .contact-me__left-col {
     margin-right: 50px;   
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 
     p {
         margin: 0;
@@ -41,6 +58,12 @@
     font-size: 28px;
     line-height: 130%;
     color: #000000;
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
 }
 
 .contact-me__right-col {
@@ -61,6 +84,21 @@
     border: 1px solid #7E9BBD;
     border-radius: 6px;
     height: 45px;
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        width: 540px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 570px) {
+        width: 100%;
+    }
 }
 
 .contact-me__form-email {
@@ -72,6 +110,21 @@
     border: 1px solid #7E9BBD;
     border-radius: 6px;
     height: 45px;
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        width: 540px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 570px) {
+        width: 100%;
+    }
 }
 
 .contact-me__form-message {
@@ -84,6 +137,21 @@
     border: 1px solid #7E9BBD;
     border-radius: 6px;
     resize: none;
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 800px) {
+        width: 540px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        // height: 40px;
+    }
+
+    // Медиа-запрос для экранов с шириной до 800px
+    @media (max-width: 570px) {
+        width: 100%;
+    }
 }
 
 .contact-me__form-file {
