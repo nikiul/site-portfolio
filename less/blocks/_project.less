@@ -1,6 +1,12 @@
 .project__content {
     padding-top: 60px;
     padding-bottom: 60px;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .project__title {
@@ -12,6 +18,17 @@
     line-height: 130%;
     text-align: center;
     color: #000000;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        margin-bottom: 45px;
+    }
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 550px) {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
 }
 
 .project__img {
@@ -19,16 +36,32 @@
     max-width: 100%;
     height: auto;
     filter: drop-shadow(0px 10px 40px rgba(126, 155, 189, 0.3));
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        margin-bottom: 45px;
+    }
 }
 
 .project__desc {
     display: flex;
     justify-content: flex-start;
+
+    // Медиа-запрос для экранов с шириной до 550px
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
 }
 
 .project__desc-left-col {
     margin-right: 30px;
     max-width: 540px;
+
+    // Медиа-запрос для экранов с шириной до 550px
+    @media (max-width: 550px) {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
 }
 
 .project__desc-text {
@@ -38,6 +71,12 @@
     font-size: 18px;
     line-height: 170%;
     color: #000000;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
 }
 
 .project__desc-figures {
@@ -48,6 +87,11 @@
     font-size: 18px;
     line-height: 130%;
     color: #000000;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 15px;
+    }
 
     &:last-child {
         margin-bottom: 0;
@@ -70,6 +114,11 @@
     font-size: 28px;
     line-height: 130%;
     color: #000000;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 23px;
+    }
 }
 
 .project__desc-list {
@@ -80,6 +129,12 @@
     font-size: 18px;
     line-height: 150%;
     color: #000000;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
 }
 
 .project-desc-list-item {
@@ -96,6 +151,11 @@
     line-height: 170%;
     color: #1647ED;
     transition: color 0.2s ease-in;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 15px;
+    }
 
     &:hover {
         color: #FF343D;
