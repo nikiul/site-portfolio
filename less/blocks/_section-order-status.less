@@ -1,6 +1,12 @@
 .order-status {
     margin-top: 60px;
     margin-bottom: 76px;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760x) {
+        margin-top: 55px;
+        margin-bottom: 60px;
+    }
 }
 
 .order-status__content {
@@ -20,25 +26,39 @@
 }
 
 .order-status__content-title {
-    margin: 20px;
+    // margin: 20px;
+    margin: 20px 10px 20px 20px;
     padding: 5px 10px 5px 10px; 
     background-color: #1647ED;
     border-radius: 3px;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 13px;
     line-height: 130%;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        margin: 10px 5px 10px 10px;
+        font-size: 10px;
+
+    }
 }
 
 .order-status__content-subtitle {
+    margin-left: 10px;
     margin-right: 10px;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 130%;
     color: #1647ED;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 13px;
+    }
 }

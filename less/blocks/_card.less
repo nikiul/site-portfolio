@@ -5,17 +5,32 @@
 }
 
 .card {
-    max-width: 540px;
-    height: auto;
-    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
-    background-color: #fff;
-    margin-bottom: 40px;
-    transition: all 0.2s ease-in;
+    // max-width: 540px;
+    // height: auto;
+    // box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
+    // background-color: #fff;
+    // margin-bottom: 40px;
+    // transition: all 0.2s ease-in;
 
-    &:hover {
-        opacity: 0.7;
-        transform: translateY(-5px);
-    }
+    // &:hover {
+    //     opacity: 0.7;
+    //     transform: translateY(-5px);
+    // }
+
+    // &:last-child {
+    //     margin-bottom: 0;
+    // }
+
+    // &:nth-last-child(2) {
+    //     margin-bottom: 0;
+    // }
+
+    margin-bottom: 30px;
+    max-width: 540px;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+
+    transition: all 0.2s ease-in;
 
     &:last-child {
         margin-bottom: 0;
@@ -23,6 +38,28 @@
 
     &:nth-last-child(2) {
         margin-bottom: 0;
+    
+        // Медиа-запрос для экранов с шириной до 760px
+        @media (max-width: 760px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &:hover {
+        opacity: 0.7;
+        transform: translateY(-5px);
+    }
+
+    // Медиа-запрос для экранов с шириной до 1140px
+    @media (max-width: 1140px) {
+        width: calc(50% - 2px);
+    }
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -35,7 +72,6 @@
     padding: 5px 10px;
     display: inline-block;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 13px;
     line-height: 120%;
@@ -43,6 +79,11 @@
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #000;
+
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 10px;
+    }
 }
 
 .card__img {
@@ -54,10 +95,17 @@
 .card__desc {
     margin: 0;
     font-family: Playfair Display;
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 120%;
     color: #000000;
 
+    // Медиа-запрос для экранов с шириной до 760px
+    @media (max-width: 760px) {
+        font-size: 20px;
+    }
+
+    // Медиа-запрос для экранов с шириной до 550px
+    @media (max-width: 550px) {
+        font-size: 17px;
+    }
 }
