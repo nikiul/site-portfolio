@@ -639,8 +639,8 @@ a {
   margin-bottom: 60px;
   max-width: 100%;
   height: auto;
-  -webkit-filter: drop-shadow(0px 10px 40px rgba(126, 155, 189, 0.3));
-          filter: drop-shadow(0px 10px 40px rgba(126, 155, 189, 0.3));
+  -webkit-box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
+          box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
 }
 @media (max-width: 760px) {
   .project__img {
@@ -736,7 +736,7 @@ a {
 @media (max-width: 760px) {
   .project__desc-list {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 }
 .project-desc-list-item {
