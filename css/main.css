@@ -293,7 +293,12 @@ a {
   }
 }
 .new-projects {
-  margin-bottom: 76px;
+  padding-bottom: 60px;
+}
+@media (max-width: 760px) {
+  .new-projects {
+    padding-bottom: 40px;
+  }
 }
 .new-projects__title {
   margin: 0;
