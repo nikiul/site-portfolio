@@ -228,12 +228,12 @@ a {
 }
 .order-status {
   margin-top: 60px;
-  margin-bottom: 76px;
+  margin-bottom: 70px;
 }
 @media (max-width: 760x) {
   .order-status {
     margin-top: 55px;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
   }
 }
 .order-status__content {
@@ -572,6 +572,12 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media (max-width: 760px) {
+  .portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 .portfolio-page__title {
   margin-bottom: 60px;
   font-family: Playfair Display;
@@ -580,6 +586,18 @@ a {
   line-height: 130%;
   text-align: center;
   color: #000000;
+}
+@media (max-width: 760px) {
+  .portfolio-page__title {
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 760px) {
+  .portfolio-page__title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
 }
 .project__content {
   padding-top: 60px;
