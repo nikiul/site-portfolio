@@ -590,13 +590,12 @@ a {
 }
 @media (max-width: 760px) {
   .portfolio-page__title {
-    font-size: 24px;
     margin-bottom: 45px;
   }
 }
 @media (max-width: 760px) {
   .portfolio-page__title {
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 40px;
   }
 }
