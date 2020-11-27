@@ -1054,4 +1054,49 @@ a {
 .sign-in__form-button:active {
   background-color: #49525B;
 }
+.admin-main {
+  background-color: #E0E0E0;
+}
+.admin__add-form-wrapper {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px 30px;
+}
+.admin__add-form-wrapper h1 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000000;
+}
+.admin__add-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.admin__add-form label {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.admin__add-form input {
+  margin-bottom: 30px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  background: #FFFFFF;
+  border: 1px solid #7E9BBD;
+  border-radius: 6px;
+}
 /*# sourceMappingURL=main.css.map */
